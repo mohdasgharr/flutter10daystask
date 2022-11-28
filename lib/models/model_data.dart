@@ -8,16 +8,16 @@ class ModelData {
   String? page;
   int? id;
 
-  ModelData(
-      {this.img,
-        this.price,
-        this.title,
-        this.subTitle,
-        this.authorName,
-        this.rate,
-        this.page,
-        this.id,
-});
+  ModelData({
+    this.img,
+    this.price,
+    this.title,
+    this.subTitle,
+    this.authorName,
+    this.rate,
+    this.page,
+    this.id,
+  });
 
   ModelData.fromJson(Map<String, dynamic> json) {
     img = json['img'];
