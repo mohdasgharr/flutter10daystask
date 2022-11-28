@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
+import 'package:project10days/practisefile/login_with_sharedpref.dart';
 import 'package:project10days/project10d/constant.dart';
 import 'package:project10days/project10d/go_to_reading_app.dart';
 import 'package:project10days/project10d/read_book.dart';
@@ -27,11 +28,12 @@ class MyApp extends StatelessWidget {
       ),
       // home: const MyHomePage(title: 'Flutter Demo Home Page'),
       home:   const
-      GoToReadingApp(),
+      // GoToReadingApp(),
       // WelcomeScreen(),
+
       // home: RatingBar(),
       // home: ReadBook(),
-      // home: Task1(),
+      Task1(),
     );
   }
 }
